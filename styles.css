@@ -1,2 +1,13 @@
-
-/* Your CSS Code here. */
+.holder {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap; /* Added to allow wrapping */
+            width: 200px; /*added to ensure the items are squashed*/
+            height: 50px; /*added to ensure the items are squashed*/
+        }
+        .item {
+            margin: 5px;
+            border: 1px solid black;
+            padding: 5px;
+        }
